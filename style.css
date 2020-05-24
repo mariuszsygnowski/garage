@@ -1941,6 +1941,7 @@ address {
   .hero-slider .slides {
     list-style: none;
     padding: 0;
+    padding-top: 130px;
     margin: 0;
     *zoom: 1; }
     .hero-slider .slides:after {
@@ -1950,6 +1951,7 @@ address {
       overflow: hidden;
       height: 0; }
     .hero-slider .slides li {
+      background-size: cover;
       padding-top: 150px;
       min-height: 790px;
       float: left;
@@ -1994,10 +1996,3 @@ address {
         transition: .3 ease; }
         .hero-slider .flex-control-paging li a.flex-active {
           background: #f63f3f; }
-
-.slides {
-  padding-top: 130px;
-}
-.slides li{
-  background-size: cover;
-}
