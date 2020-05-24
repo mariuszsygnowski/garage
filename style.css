@@ -1952,6 +1952,8 @@ address {
       height: 0; }
     .hero-slider .slides li {
       background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
       padding-top: 150px;
       min-height: 790px;
       float: left;
