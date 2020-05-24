@@ -1994,3 +1994,10 @@ address {
         transition: .3 ease; }
         .hero-slider .flex-control-paging li a.flex-active {
           background: #f63f3f; }
+
+.slides {
+  padding-top: 130px;
+}
+.slides li{
+  background-size: cover;
+}
