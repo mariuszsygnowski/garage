@@ -1951,7 +1951,7 @@ address {
       overflow: hidden;
       height: 0; }
     .hero-slider .slides li {
-      background-size: cover;
+      background-size: contain;
       padding-top: 150px;
       min-height: 790px;
       float: left;
